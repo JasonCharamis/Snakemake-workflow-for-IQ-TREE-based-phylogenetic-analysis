@@ -2,7 +2,7 @@
 
 This is a Snakemake pipeline for automated maximum likelihood (ML) phylogenetic analysis. 
 
-It includes producing and editing the multiple sequence alignment (MSA), and using it for maximum likelihood phylogenetic analysis.
+It includes producing and editing the multiple sequence alignment (MSA), and using the modified MSA for maximum likelihood phylogenetic analysis.
 
 Usage:
 
