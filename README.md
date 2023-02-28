@@ -1,4 +1,4 @@
-**Automated phylogenetic analysis using Snakemake**
+**Automated phylogenetic analysis using IQ-TREE**
 
 This is a Snakemake pipeline for automated maximum likelihood (ML) phylogenetic analysis. 
 
