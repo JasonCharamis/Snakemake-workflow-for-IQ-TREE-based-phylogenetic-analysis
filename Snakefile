@@ -20,10 +20,10 @@ rule trimal:
 rule convert:
      input: "all_genes.aln.trimmed"
      output: "all_genes.aln.trimmed.phy"
-     shell: "/home/panos/bin/convert.sh {input} > {output}"
+     shell: "./convert.sh {input} > {output}"
 
 rule phylogenetic_tree:
      input: "all_genes.aln.trimmed.phy"
      output: "all_genes.aln.trimmed.phy.treefile"
-     shell: "/data/iasonas/Programs/IQ-TREE/iqtree -s {input} -ninit 100 -alrt 1000 -bb 1000 -m MFP -nt 15"
+     shell: "iqtree -s {input} -ninit 100 -alrt 1000 -bb 1000 -m MFP -nt 15"
 
