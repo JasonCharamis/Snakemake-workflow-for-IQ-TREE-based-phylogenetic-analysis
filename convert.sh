@@ -1,3 +1,5 @@
+# Author: Panagiotis Ioannidis
+
 #!/bin/sh
 
 if [ $# != 1 ]; then
